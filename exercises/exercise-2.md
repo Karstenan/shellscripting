@@ -21,6 +21,8 @@ You will learn to:
 
 :pencil2: Use a for loop to print out the first few lines of each file in a directory.
   - Try to do this both as a script and as a one-liner in the shell
+ANSWER:  for file in `ls -a`; do head -1 $file; done
+
 
 :pencil2: Make a variable containing the name of a directory. 
   - Make a test that checks whether the name is a directory or a regular file.
